@@ -1,0 +1,20 @@
+{
+  "name": "narcissus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node ./bin/www",
+    "lint": "eslint index.js --fix"
+  },
+  "keywords": [],
+  "author": "Alexander Pasikhov",
+  "license": "ISC",
+  "description": "My solution to the problem",
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "jest": "^27.4.7"
+  }
+}
